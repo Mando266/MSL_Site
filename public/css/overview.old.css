@@ -1,0 +1,241 @@
+.typography-headline-reduced {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.typography-headline-reduced:lang(ar) {
+    line-height: 1.3;
+    font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+    .typography-headline-reduced {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-headline-reduced:lang(ar) {
+        line-height: 1.34375;
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .typography-headline-reduced {
+        font-size: 27px;
+        line-height: 1.14815;
+        font-weight: 600;
+        letter-spacing: .008em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-headline-reduced:lang(ar) {
+        line-height: 1.35195;
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+.typography-eyebrow-reduced {
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.typography-eyebrow-reduced:lang(ar) {
+    line-height: 1.35726;
+    font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+    .typography-eyebrow-reduced {
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-eyebrow-reduced:lang(ar) {
+        line-height: 1.39474;
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .typography-eyebrow-reduced {
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-eyebrow-reduced:lang(ar) {
+        line-height: 1.39474;
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+.typography-label {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.typography-label:lang(ar) {
+    line-height: 1.35417;
+    font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+    .typography-label {
+        font-size: 22px;
+        line-height: 1.18182;
+        font-weight: 600;
+        letter-spacing: .01em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-label:lang(ar) {
+        line-height: 1.40913;
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .typography-label {
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+        letter-spacing: .011em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .typography-label:lang(ar) {
+        line-height: 1.4;
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+.typography-body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.typography-body:lang(ar) {
+    line-height: 1.58824;
+    letter-spacing: 0em;
+    font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.typography-headline-reduced + p, .typography-headline-reduced + ul,
+.typography-intro-product-reduced + p, .typography-intro-product-reduced + ul {
+    margin-top: 1em
+}
+
+.typography-headline + .typography-intro, .typography-intro-product + .typography-intro {
+    margin-top: 1.2em
+}
+
+.typography-headline-elevated + .typography-intro-elevated, .typography-intro-product-elevated + .typography-intro-elevated {
+    margin-top: 1.4em
+}
+
+.typography-headline-super + .typography-intro-elevated, .typography-intro-product-super + .typography-intro-elevated {
+    margin-top: 1.6em
+}
+
+.section {
+    padding-top: 50px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section {
+        padding-top: 40px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section {
+        padding-top: 30px
+    }
+}
+
+.section:last-child {
+    padding-bottom: 50px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section:last-child {
+        padding-bottom: 40px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section:last-child {
+        padding-bottom: 30px
+    }
+}
+
+.section li {
+    margin-bottom: 10px
+}
+
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px
+}
+
+@media only screen and (min-width: 1442px) {
+    .section-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 980px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 692px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%
+    }
+}
+
+.section-hero {
+    padding-top: 65px
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero {
+        padding-top: 55px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-hero {
+        padding-top: 45px
+    }
+}

@@ -1,0 +1,140 @@
+#ac-globalfooter {
+    font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: rgb(3 40 99);
+    color: #ccc;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+#ac-globalfooter img {
+    border: 0;
+    vertical-align: middle;
+}
+
+#ac-globalfooter ul {
+    list-style: none;
+    padding: 0;
+}
+
+#ac-globalfooter a {
+    color: #91aac4;
+    text-decoration: none;
+    display: inline-block; /* Ensure links appear as inline block to handle responsiveness */
+}
+
+#ac-globalfooter a:hover {
+    color: #C4DDF7;
+    text-decoration: underline;
+}
+
+#ac-globalfooter .ac-gf-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 22px;
+}
+
+#ac-globalfooter h3 {
+    font-size: 2rem;
+    color: #00a0dc;
+    margin-bottom: 20px;
+}
+
+.ac-gf-footer svg {
+    width: 40px;
+    margin: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, fill 0.3s ease;
+    fill: #C4DDF7;
+}
+
+.ac-gf-footer svg:hover {
+    transform: scale(1.3);
+    fill: #C4DDF7;
+}
+
+#ac-globalfooter .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#ac-globalfooter .col-md-8 {
+    width: 66.6667%;
+}
+
+#ac-globalfooter .col-md-4 {
+    width: 33.3333%;
+}
+
+.ac-gf-footer svg {
+    width: 30px;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.ac-gf-footer svg:hover {
+    transform: scale(1.1);
+}
+
+.ac-gf-footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#ac-globalfooter .d-flex {
+    display: flex;
+}
+
+.ac-gf-footer-credits a {
+    color: #91aac4;
+    text-decoration: none;
+}
+
+.ac-gf-footer-credits a:hover {
+    color: #C4DDF7;
+    text-decoration: underline;
+}
+
+/* Make sure phone numbers and emails are visible and styled */
+#ac-globalfooter ul li a {
+    color: #00a0dc; /* Ensure contact details stand out */
+    font-weight: bold;
+}
+
+#ac-globalfooter ul li {
+    padding: 5px 0;
+    line-height: 1.5; /* Improve spacing between lines */
+}
+
+#ac-globalfooter ul li b {
+    color: #fff; /* Make office labels stand out */
+    font-size: 1.1rem;
+}
+
+/* Ensure no text is hidden or overlapping */
+#ac-globalfooter ul li {
+    display: block;
+    visibility: visible;
+}
+
+/* Media query adjustments for smaller screens */
+@media (max-width: 767px) {
+    #ac-globalfooter .col-md-4, #ac-globalfooter .col-md-8 {
+        width: 100%; /* Make each column take the full width on mobile */
+        margin-bottom: 20px;
+    }
+
+    #ac-globalfooter h5, #ac-globalfooter h3 {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: space-between;
+    }
+
+    /* Ensure telephone numbers and emails wrap properly on mobile */
+    #ac-globalfooter ul li a {
+        word-wrap: break-word;
+    }
+}

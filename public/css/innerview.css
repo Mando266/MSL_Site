@@ -1,0 +1,571 @@
+/* section-hero */
+
+.page-overview .section.section-hero {
+    min-height: 1000px
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section.section-hero {
+        min-height: 1000px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section.section-hero {
+        min-height: 925px
+    }
+}
+
+.page-overview .section.section-hero .section-content {
+    min-height: 350px;
+    padding: 160px 0 160px 0
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section.section-hero .section-content {
+        padding: 140px 0 505px 0
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section.section-hero .section-content {
+        min-height: 470px;
+        padding: 140px 0 140px 0
+    }
+}
+
+.page-overview .section.section-hero .hero-copy {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    max-width: 770px
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section.section-hero .hero-copy {
+        max-width: 690px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section.section-hero .hero-copy {
+        max-width: 90%
+    }
+}
+
+.page-overview .section.section-hero .hero-copy .icon {
+    padding-right: 24px
+}
+
+.page-overview .section.section-hero .hero-copy .read-transcript {
+    margin: auto;
+    padding-right: 0
+}
+
+.page-overview .section.section-hero .hero-copy .intro {
+    font-size: 22px;
+    line-height: 1.45455;
+    font-weight: 300;
+    letter-spacing: .016em;
+    font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 1em
+}
+
+.page-overview .section.section-hero .hero-copy .intro:lang(ar) {
+    font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section.section-hero .hero-copy .intro {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 300;
+        letter-spacing: .017em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .page-overview .section.section-hero .hero-copy .intro:lang(ar) {
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section.section-hero .hero-copy .intro {
+        font-size: 19px;
+        line-height: 1.47384;
+        font-weight: 300;
+        letter-spacing: .018em;
+        font-family: "Din Next", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+
+    .page-overview .section.section-hero .hero-copy .intro:lang(ar) {
+        font-family: "Din Next Arabic", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+.page-overview .section.section-hero .bg {
+    width: 1860px;
+    height: 1000px;
+    background-size: 1860px 1000px;
+    background-repeat: no-repeat;
+    background-color: #f7fbfe;
+    background-image: url("../../img/tramp-agency/tramp-agency-hero_large.jpg");
+    background-position: center bottom;
+    left: 50%;
+    margin-left: -930px;
+    position: absolute;
+    bottom: 0
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .page-overview .section.section-hero .bg {
+        background-image: url("../../img/tramp-agency/tramp-agency-hero_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section.section-hero .bg {
+        width: 1068px;
+        height: 1000px;
+        background-size: 1068px 1000px;
+        background-repeat: no-repeat;
+        background-image: url("../../img/tramp-agency/tramp-agency-hero_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .page-overview .section.section-hero .bg {
+        background-image: url("../../img/tramp-agency/tramp-agency-hero_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section.section-hero .bg {
+        width: 736px;
+        height: 925px;
+        background-size: 736px 925px;
+        background-repeat: no-repeat;
+        background-image: url("../../img/tramp-agency/tramp-agency-hero_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .page-overview .section.section-hero .bg {
+        background-image: url("../../img/tramp-agency/tramp-agency-hero_small_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section.section-hero .bg {
+        left: 50%;
+        margin-left: -534px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section.section-hero .bg {
+        left: 50%;
+        margin-left: -368px
+    }
+}
+
+/* end of section-hero */
+
+/* section-info */
+
+.page-overview .section-info .section-content {
+    padding-top: 135px;
+    padding-bottom: 135px
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-info .section-content {
+        padding-top: 84px;
+        padding-bottom: 95px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-info .section-content {
+        padding-top: 70px;
+        padding-bottom: 100px
+    }
+}
+
+/* end of section-info */
+
+/* section-principals */
+
+.page-overview .section-principals .section-content {
+    padding-top: 135px;
+    padding-bottom: 135px
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .section-content {
+        padding-top: 84px;
+        padding-bottom: 95px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .section-content {
+        padding-top: 70px;
+        padding-bottom: 100px
+    }
+}
+
+.page-overview .section-principals .principals-logos {
+    margin-top: 48px;
+}
+
+.page-overview .section-principals .principals-logos li {
+    float: none;
+    display: inline-block;
+    /*background-color: rgba(0,0,0,0.3);*/
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos li {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-gard {
+    width: 110px;
+    height: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-gard.svg");
+    background-position: 0 13px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-gard {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-gard {
+        width: 400px;
+        height: 65px;
+        background-size: 20%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-alandia-marine {
+    width: 150px;
+    height: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-alandia-marine.svg");
+    background-position: 0 23px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-alandia-marine {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-alandia-marine {
+        width: 400px;
+        height: 60px;
+        background-size: 30%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-norwegian-hull-club {
+    width: 160px;
+    height: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-norwegian-hull-club.svg");
+    background-position: 0 0;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-norwegian-hull-club {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-norwegian-hull-club {
+        width: 400px;
+        height: 98px;
+        background-size: 33%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-the-swedish-club {
+    width: 130px;
+    height: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-the-swedish-club.svg");
+    background-position: 0 13px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-the-swedish-club {
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-the-swedish-club {
+        width: 400px;
+        height: 88px;
+        background-size: 30%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-skuld {
+    width: 130px;
+    height: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-skuld.svg");
+    background-position: 0 23px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-skuld {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-skuld {
+        width: 400px;
+        height: 45px;
+        background-size: 30%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-swedish-orient-line {
+    width: 90px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-swedish-orient-line.svg");
+    background-position: 0 10px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-swedish-orient-line {
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-swedish-orient-line {
+        width: 400px;
+        height: 100px;
+        background-size: 30%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-combi-dock {
+    width: 100px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-combi-dock.svg");
+    background-position: 0 30px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-combi-dock {
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-combi-dock {
+        width: 400px;
+        height: 38px;
+        background-size: 36%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-imperial-shipping {
+    width: 90px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-imperial-shipping.svg");
+    background-position: 0 0;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-imperial-shipping {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-imperial-shipping {
+        width: 400px;
+        height: 120px;
+        background-size: 26%;
+        background-position: 0 10px;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-ocean-seven {
+    width: 90px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-ocean-seven.svg");
+    background-position: 0 20px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-ocean-seven {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-ocean-seven {
+        width: 400px;
+        height: 63px;
+        background-size: 26%;
+        background-position: 0 4px;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-thorco-projects {
+    width: 90px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-thorco-projects.svg");
+    background-position: 0 10px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-thorco-projects {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-thorco-projects {
+        width: 400px;
+        height: 130px;
+        background-size: 26%;
+        background-position: 0 10px;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-fednav {
+    width: 170px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-fednav.svg");
+    background-position: 0 30px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-fednav {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-fednav {
+        width: 400px;
+        height: 45px;
+        background-size: 56%;
+        background-position: 0 0;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-norden {
+    width: 90px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-norden.svg");
+    background-position: 0 33px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-norden {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-norden {
+        width: 400px;
+        height: 30px;
+        background-size: 23%;
+        background-position: 0 3px;
+    }
+}
+
+.page-overview .section-principals .principals-logos .principal-logo-western-bulk {
+    width: 130px;
+    height: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../img/about/principals-logos/principal-logo-western-bulk.svg");
+    background-position: 0 33px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-principals .principals-logos .principal-logo-western-bulk {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-principals .principals-logos .principal-logo-western-bulk {
+        width: 400px;
+        height: 30px;
+        background-size: 43%;
+        background-position: 0 4px;
+    }
+}
+
+/* end of section-principals */
+
+/* section-team */
+
+.page-overview .section-team .section-content {
+    padding-top: 135px;
+    padding-bottom: 135px
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .section-team .section-content {
+        padding-top: 84px;
+        padding-bottom: 95px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-overview .section-team .section-content {
+        padding-top: 70px;
+        padding-bottom: 100px
+    }
+}
+
+/* end of section-team */

@@ -1,0 +1,98 @@
+/* Main Container Styling */
+.contact-container {
+    display: flex;
+    justify-content: space-between; /* Space between contact info and form */
+    align-items: flex-start; /* Align items to the top */
+    padding: 5%; /* General padding for the container */
+}
+
+/* Contact Info Styling */
+.contact-info {
+    flex: 0 0 30%; /* Take 30% of the width */
+    padding: 15px; /* Inner padding */
+    margin-right: 20px; /* Space to the right of the contact info */
+    border-radius: 5px; /* Optional: slight rounding of corners */
+}
+
+/* Contact Form Styling */
+.contact-form-container {
+    flex: 0 0 50%; /* Take 70% of the width */
+    padding: 15px; /* Inner padding */
+    margin-left: 20px; /* Space to the left of the form */
+    border-radius: 5px; /* Optional: slight rounding of corners */
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+/* Input Fields Styling */
+.form-control {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+/* Button Styling */
+.btn-submit {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* Text color */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Social Icons Styling */
+.social-icons {
+    display: flex; /* Flexbox for alignment */
+    gap: 10px; /* Space between icons */
+}
+
+.social-icons svg {
+    width: 30px; /* Size of the icons */
+    height: 30px; /* Size of the icons */
+    fill: black; /* Color of icons */
+    transition: fill 0.3s ease; /* Transition for hover effect */
+}
+
+.social-icons svg:hover {
+    fill: black; /* Darker shade on hover */
+}
+
+/* Map Section Styling */
+.map-section {
+    text-align: center; /* Center the title */
+    padding:10%;
+    padding-top: 0px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column; /* Stack elements on small screens */
+    }
+
+    .contact-info,
+    .contact-form-container {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 20px; /* Space below each section */
+    }
+
+    .form-control {
+        font-size: 14px; /* Smaller font size on mobile */
+    }
+
+    .btn-submit {
+        font-size: 14px; /* Smaller font size on mobile */
+    }
+}

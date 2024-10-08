@@ -1,0 +1,622 @@
+/* Copyright (C) 2008 - 2011 Linotype GmbH, www.linotype.com. All rights reserved.
+This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. */
+
+/* Latin Extended Language Support: Afrikaans, Basque, Breton, Catalan, Croatian, 
+Czech, Danish, Dutch, English, Estonian, Finnish, 
+French, Gaelic (Irish, Scots), German, Hungarian, 
+Icelandic, Indonesian, Irish, Italian, Latvian, Lithuanian, 
+Norwegian, Polish, Portuguese, Romanian, Saami (Southern), 
+Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Turkish. */
+
+/* Headlines */
+
+/* Din Next Slab [Ultralight] */
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 200';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:italic;
+	font-weight:200;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight-italic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 200 Italic';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_ultralight-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Slab [Light] */
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 300';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:italic;
+	font-weight:300;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Slab 300 Italic';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_light-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Slab [Regular] */
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:normal;
+	font-weight:400;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 400';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:italic;
+	font-weight:400;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Slab 400 Italic';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_regular-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Slab [Medium] */
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 500';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:italic;
+	font-weight:500;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Slab 500 Italic';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_medium-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Slab [Bold] */
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 600';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:italic;
+	font-weight:600;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Slab 600 Italic';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_bold-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Slab [Heavy] */
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:normal;
+	font-weight:800;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 800';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:italic;
+	font-weight:800;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Slab 800 Italic';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_heavy-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Slab [Black] */
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next Slab 900';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next Slab';
+	font-style:italic;
+	font-weight:900;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Slab 900 Italic';
+	src:url("../fonts/latin-extended/din_next_slab_pro/din_next_slab_pro_black-italic.eot?#iefix") format("embedded-opentype");
+}
+
+
+/* Body Copy */
+
+/* Din Next [Ultralight] */
+
+@font-face {
+	font-family:'Din Next';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 200';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next';
+	font-style:italic;
+	font-weight:200;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight-italic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 200 Italic';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_ultralight-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next [Light] */
+
+@font-face {
+	font-family:'Din Next';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 300';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next';
+	font-style:italic;
+	font-weight:300;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next 300 Italic';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_light-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next [Regular] */
+
+@font-face {
+	font-family:'Din Next';
+	font-style:normal;
+	font-weight:400;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 400';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next';
+	font-style:italic;
+	font-weight:400;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next 400 Italic';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_regular-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next [Medium] */
+
+@font-face {
+	font-family:'Din Next';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 500';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next';
+	font-style:italic;
+	font-weight:500;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next 500 Italic';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_medium-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next [Bold] */
+
+@font-face {
+	font-family:'Din Next';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 600';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next';
+	font-style:italic;
+	font-weight:600;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next 600 Italic';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_bold-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next [Heavy] */
+
+@font-face {
+	font-family:'Din Next';
+	font-style:normal;
+	font-weight:800;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 800';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next';
+	font-style:italic;
+	font-weight:800;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next 800 Italic';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_heavy-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next [Black] */
+
+@font-face {
+	font-family:'Din Next';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'Din Next 900';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+	font-family:'Din Next';
+	font-style:italic;
+	font-weight:900;
+	src:local('☺︎'), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black-italic.woff") format("woff"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black-italic.svg") format("svg"), 
+		url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black-italic.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next 900 Italic';
+	src:url("../fonts/latin-extended/din_next_lt_pro/din_next_lt_pro_black-italic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Arabic Language Support: Arabic */
+
+/* Din Next Arabic [Thin] */
+
+@font-face {
+	font-family:'Din Next Arabic';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_thin.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_thin.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_thin.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Arabic 200';
+	src:url("../fonts/arabic/din_next_lt_pro/din_next_arabic_thin.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Arabic [Light] */
+
+@font-face {
+	font-family:'Din Next Arabic';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_light.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_light.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_light.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Arabic 300';
+	src:url("../fonts/arabic/din_next_lt_pro/din_next_arabic_light.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Arabic [Regular] */
+
+@font-face {
+	font-family:'Din Next Arabic';
+	font-style:normal;
+	font-weight:400;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_regular.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_regular.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_regular.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Arabic 400';
+	src:url("../fonts/arabic/din_next_lt_pro/din_next_arabic_regular.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Arabic [Medium] */
+
+@font-face {
+	font-family:'Din Next Arabic';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_medium.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_medium.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_medium.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Arabic 500';
+	src:url("../fonts/arabic/din_next_lt_pro/din_next_arabic_medium.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Arabic [Bold] */
+
+@font-face {
+	font-family:'Din Next Arabic';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_bold.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_bold.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_bold.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Arabic 600';
+	src:url("../fonts/arabic/din_next_lt_pro/din_next_arabic_bold.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Arabic [Heavy] */
+
+@font-face {
+	font-family:'Din Next Arabic';
+	font-style:normal;
+	font-weight:800;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_heavy.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_heavy.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_heavy.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Arabic 800';
+	src:url("../fonts/arabic/din_next_lt_pro/din_next_arabic_heavy.eot?#iefix") format("embedded-opentype");
+}
+
+/* Din Next Arabic [Black] */
+
+@font-face {
+	font-family:'Din Next Arabic';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_black.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_black.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/din_next_arabic_black.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Din Next Arabic 900';
+	src:url("../fonts/arabic/din_next_lt_pro/din_next_arabic_black.eot?#iefix") format("embedded-opentype");
+}
+
+/* Icons */
+
+/* Icon Works */
+
+@font-face {
+	font-family:'Icon Works';
+	font-style:normal;
+	font-weight:normal;
+	src:local('☺︎'), 
+		url("../fonts/arabic/din_next_lt_pro/icon_works.woff") format("woff"), 
+		url("../fonts/arabic/din_next_lt_pro/icon_works.svg") format("svg"), 
+		url("../fonts/arabic/din_next_lt_pro/icon_works.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family:'Icon Works';
+	src:url("../fonts/arabic/din_next_lt_pro/icon_works.eot?#iefix") format("embedded-opentype");
+}
