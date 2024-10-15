@@ -11,7 +11,7 @@
     width: 100%;
     display: block;
     opacity: 0.8;
-    height: 400px;
+    height: 650px;
     object-fit: cover;
 }
 
@@ -126,7 +126,7 @@
     flex: 1;
     position: relative;
     overflow: hidden;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease;
@@ -170,7 +170,7 @@
 }
 
 .homepage-section h2 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: 20px;
     color: #0c4da2;
 }
@@ -209,7 +209,7 @@
 }
 
 .about-section h2 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: 20px;
     color: #0c4da2;
 }
@@ -231,7 +231,7 @@
 }
 
 #why-choose-us h2 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: 40px;
     color: #0c4da2;
 }

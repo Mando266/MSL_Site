@@ -11,6 +11,13 @@
     <main id="main" class="main" role="main" data-page-type="contact">
         <!-- Contact banner -->
         @include('partials.home-banner')
+        
+    <section id="about-us" class="homepage-section about-section">
+        <div class="container">
+            <h2>Who We Are ?</h2>
+            <p>At MSL, we are committed to providing exceptional logistics solutions tailored to your needs. With years of experience, a wide range of equipment, and dedicated professionals, we ensure that your cargo reaches its destination safely and on time. Our goal is to create seamless supply chain solutions that exceed your expectations.</p>
+        </div>
+    </section>
 
     <section id="section-promos" class="homepage-section">
           <h2>Our Services</h2>
@@ -48,13 +55,6 @@
                   </div>
               </div>
           </div>
-    </section>
-
-    <section id="about-us" class="homepage-section about-section">
-        <div class="container">
-            <h2>Who We Are ?</h2>
-            <p>At MSL, we are committed to providing exceptional logistics solutions tailored to your needs. With years of experience, a wide range of equipment, and dedicated professionals, we ensure that your cargo reaches its destination safely and on time. Our goal is to create seamless supply chain solutions that exceed your expectations.</p>
-        </div>
     </section>
 
     <section id="why-choose-us" class="homepage-section">
